@@ -1,0 +1,28 @@
+1
+A) ls Enlista todos los archivos en columnas
+   ls -m Enlista todos los archivos en filas
+   ls -l Enlista todos los archivos pero mostrando datos mas especificos de cada archivo
+   ls -l -v Enlista todo pero mas corto
+B) ls a* Muestra todos los archivos que empiecen con a
+   ls a*.c Solo aquellos que empice con a pero que acaben con .c
+   ls a??.c Muestra solo aquellos que tengan una a al principio seguido de dos digistos y que
+	    termine en .c
+   ls a????.c Lo mismo pero con 4 digitos
+   ls ?iii?.c Que tengo un iii dendeto de cualquien digito
+   ls *9.c Todo los archivos que terminen en 9.c
+C) ls ai[1-5].c Muestra contando de cierto rango
+   ls [a-c]ii1.c Muestra desde cierto rango que termine en ii1.c
+D) echo a*  con el echo solo va imprimir el comando en plano ya no como comando en general
+   ls a*.c, 
+   ls a??.c, 
+   ls a????.c, 
+   ls ?iii?.c, 
+   ls *9.c
+E) echo ai[1-5].c  
+   ls [a-c]ii1.c
+2 El -1 serviria solo para poner todo en una sola fila
+  El -X lo ordena alfaveticamente por extencion 
+  el -r lo hace todo al contrario, si es que 
+3 cp -u Va verificar si el archivo esta actualizado o si no le falta el destinatario
+  mkdir -v avisa que fue creado
+  rm -f ignora cualquier factor y lo hace

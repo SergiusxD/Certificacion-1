@@ -1,0 +1,16 @@
+Con hostname el nombre el mio gatachi-VirtualBox
+Con Date la fecha vie feb 14 07:53:35 -04 2020
+Con el comando which -a cp se sabe donde ese encuentra el comando cp /bin/cp
+1. find . | wc 15673   18686 1039964
+2. find ~gatachi/ -maxdepth 10 -name "*.txt" | wc29      33    1786
+3. find ~gatachi/ -name 'comandofind*' ! -name '*.txt'
+4. find ~gatachi/ -name Documentos*
+5. find .*| wc 43757   52796 3114843
+6. find . -type f -perm 0740
+7. find . -user gatachi | wc  15699   18712 1041492
+8. find /var/www –group adm
+9. find / -ntime 5
+10. find / -size 40M
+
+find /home/* -type d -exec chmod 775 '{}' \;
+

@@ -1,0 +1,7 @@
+-cp este comando funciona para copiar
+-rm para eliminar archivos
+-mv mover los archivos
+-mkdir crea carpetas en los directorios
+-rmdir elimina los archivos
+-touch crear archivos
+-ls enlista en la direccion que estes
